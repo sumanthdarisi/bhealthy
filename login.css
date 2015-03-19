@@ -1,0 +1,166 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font: 16px Helvetica;
+  background: #d35400;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.body1{
+padding-left:10%;
+float:left;
+position:relative;
+margin-left:1%;
+padding-top:15%;  
+
+}
+
+.body2{  
+  padding-left:1px;
+  position:relative;	
+  margin-right:13%;
+  float:right;
+  padding-top:9%;
+}
+section {
+  
+  right:20px;
+  width: 330px;
+  background: #ecf0f1;
+  padding: 0 30px 10px 30px;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+.temp{
+background-color:#000;
+right:20px;
+  width: 275px;
+  background: #ecf0f1;
+  padding: 0 30px 10px 30px;
+  margin: 60px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+span {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: -10px;
+  height: 80px;
+  width: 80px;
+  background: url('http://s.cafebazaar.ir/1/upload/icons/omid.razhiim.amdamdlkoah.png') center center no-repeat;
+  background-size: 83px 83px;
+  border-radius: 90%;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  background: #ffffff;
+  border: none;
+  height: 30px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  background: #3498db;
+  color: #ecf0f1;
+  font-weight: 100;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: all ease-in-out .2s;
+  border-bottom: 3px solid #2980b9;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+h2 {
+  font-size: .75em;
+}
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: all ease-in-out .2s;
+}
+
+a:hover {
+  color: #c0392b;
+}
+
+
+.footer{
+text-shadow: 1px 1px 18px gray, 0 0 .9em black, 0 0 .9em black;
+color: white;
+font-size:44px;
+font-family: Daniel-Black;
+padding-left:20%;
+position:fixed;
+text-align:center;
+}
+
+.headerbg{
+padding: 5px 0px 10px;
+width:100%;
+height: 65px;
+background-color:gray;
+opacity:0.8;
+}
+
+.header{
+
+padding-top:40px;
+width:100%;
+height:1px;
+position:relative;
+min-height:90px;
+}
+
+@font-face
+{
+font-family: sitename;
+src: url('Daniel-Black.otf');
+}
